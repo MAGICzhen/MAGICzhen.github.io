@@ -8,7 +8,7 @@ citation: 'Jinjie Zhu, <b>Zhen Chen</b>, Xianbin Liu. (2016) <i>Physical Review 
 ---
 
 
-[[PDF]](http://MAGICzhen.github.io/files/CSF2015.pdf)
+[[PDF]](http://MAGICzhen.github.io/files/PRE2016.pdf)
 
 ## Abstract
 We study firing behaviors and the transitions among them in small-world noisy neuronal networks with electrical synapses and information transmission delay. Each neuron is modeled by a two-dimensional Rulkov map neuron. The distance between neurons, which is a main source of the time delay, is taken into consideration. Through spatiotemporal patterns and interspike intervals as well as the interburst intervals, the collective behaviors are revealed. It is found that the networks switch from resting state into intermittent firing state under Gaussian noise excitation. Initially, noise-induced firing behaviors are disturbed by small time delays. Periodic firing behaviors with irregular zigzag patterns emerge with an increase of the delay and become progressively regular after a critical value is exceeded. More interestingly, in accordance with regular patterns, the spiking frequency doubles compared with the former stage for the spiking neuronal network. A growth of frequency persists for a larger delay and a transition to antiphase synchronization is observed. Furthermore, it is proved that these transitions are generic also for the bursting neuronal network and the FitzHugh-Nagumo neuronal network. We show these transitions due to the increase of time delay are robust to the noise strength, coupling strength, network size, and rewiring probability.
