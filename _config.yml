@@ -85,7 +85,7 @@ author:
   bio              : "Ph.D. stundet, Departmen of Brai and Cogntive Sciences, University of Rochester"
   location         : "Rochester, New York"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=5tLXAaEAAAAJ&hl=en"
   email            : "zchen87@ur.rochester.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
