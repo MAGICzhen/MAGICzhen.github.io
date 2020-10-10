@@ -1,5 +1,5 @@
 ---
-layout: archive
+<!-- layout: archive -->
 title: "Zhen Chen (陈朕)"
 permalink: /cv/
 author_profile: true
