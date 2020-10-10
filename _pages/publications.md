@@ -9,6 +9,7 @@ author_profile: true
 <b>Zhen Chen</b>, Krishnan Padmanabhan.
 <i>Frontiers in Computational Neuroscience</i>. <b>2020</b>.
 
+
 <b>[Non-differentiability of quasi-potential and non-smooth dynamics of optimal paths in the stochastic Morris–Lecar model: Type I and II excitability](https://magiczhen.github.io/publication/ND2019)</b> <br> 
 <b>Zhen Chen</b>, Jinjie Zhu, Xianbin Liu.
 <i>Nonlinear Dynamics</i>. <b>2019</b>.
