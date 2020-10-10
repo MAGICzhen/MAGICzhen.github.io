@@ -8,9 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<p align="center">
-  <img src="https://lantaoyu.github.io/files/lantaoyu_img.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
-</p>
 
 # About Me
 * I am currently a Ph.D. student in the [Department of Brain and Cognitive Sciences](http://www.sas.rochester.edu/bcs/) at [University of Rochester](https://rochester.edu), co-advised by Prof. [Ralf Haefner](http://www.sas.rochester.edu/bcs/people/faculty/haefner_ralf/index.html) and Prof. [Krishnan Padmanabhan](https://www.urmc.rochester.edu/people/29791170-krishnan-padmanabhan).
