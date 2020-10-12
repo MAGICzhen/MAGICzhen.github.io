@@ -27,8 +27,8 @@ main:
   - title: "CV"
     url: /files/CV_Zhen.pdf
     
-  - title: "Gallary"
-    url: /gallary/
+  #- title: "Gallary"
+   # url: /gallary/
     
   - title: "Contact"
     url: /contact/
