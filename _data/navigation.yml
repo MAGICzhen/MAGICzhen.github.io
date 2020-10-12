@@ -21,8 +21,8 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  # - title: "Blogs"
-  #   url: /year-archive/
+- title: "Photos"
+  url: /year-archive/
   
   - title: "CV"
     url: /files/CV_Zhen.pdf
