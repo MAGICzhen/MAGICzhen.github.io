@@ -20,3 +20,4 @@ redirect_from:
   1. how centrifugal feedback influences these patterns;
   1. how these patterns generate motor behaviors;
   1. at a higher level, how the neuronal circuits perform inference and represent uncertainty.
+* I love photography. I will add another tab at the top where I can put some of the photos I took. But before that I need to figure out a nice way to do that. 
