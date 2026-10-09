@@ -16,7 +16,7 @@ a:focus-visible, button:focus-visible { outline:3px solid var(--link); outline-o
 .theme-toggle { margin-left:auto; border:1px solid var(--line); border-radius:50%; background:var(--bg); color:var(--text); width:40px; height:40px; cursor:pointer; font-size:23px; line-height:1; }
 .page-layout { width:100%; max-width:1120px; margin:0 auto; padding:44px 22px 85px; display:grid; grid-template-columns:210px minmax(0,1fr); gap:65px; flex:1; }
 .sidebar { font-size:14px; line-height:1.55; }
-.portrait { width:168px; height:168px; display:grid; place-items:center; border:5px solid var(--bg); outline:1px solid var(--line); border-radius:50%; background:var(--portrait); color:var(--link); font-size:48px; font-weight:700; letter-spacing:-.05em; }
+.portrait { width:168px; height:168px; display:grid; place-items:center; border:5px solid var(--bg); outline:1px solid var(--line); border-radius:50%; background:var(--portrait); object-fit:cover; object-position:center 35%; color:var(--link); font-size:48px; font-weight:700; letter-spacing:-.05em; }
 .sidebar h2 { font-size:18px; margin:18px 0 4px; }
 .role { margin:0; color:var(--muted); }
 .profile-links { padding:0; margin:24px 0; list-style:none; }

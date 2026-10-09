@@ -6,6 +6,6 @@
 <link rel="stylesheet" href="style.css"></head>
 <body><main class="sitemap-page"><h1>Sitemap</h1><ul>
 {% assign listed_pages = site.pages | where: "sitemap", true | sort: "order" %}
-{% for item in listed_pages %}<li><a href="{{ item.url | relative_url }}">{{ item.title | default: item.name | remove: '.html' | capitalize }}</a></li>{% endfor %}
-</ul><p><a href="index.html">← Back to About</a></p></main></body>
+{% for item in listed_pages %}<li>{% if item.title == "CV" %}<a href="cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>{% else %}<a href="{{ item.url | relative_url }}" target="_blank" rel="noopener noreferrer">{{ item.title | default: item.name | remove: '.html' | capitalize }}</a>{% endif %}</li>{% endfor %}
+</ul><p><a href="index.html" target="_blank" rel="noopener noreferrer">← Back to About</a></p></main></body>
 </html>
