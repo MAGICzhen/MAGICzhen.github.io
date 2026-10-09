@@ -1,0 +1,11 @@
+---
+---
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sitemap | Zhen Chen</title>
+<link rel="stylesheet" href="style.css"></head>
+<body><main class="sitemap-page"><h1>Sitemap</h1><ul>
+{% assign listed_pages = site.pages | where: "sitemap", true | sort: "order" %}
+{% for item in listed_pages %}<li><a href="{{ item.url | relative_url }}">{{ item.title | default: item.name | remove: '.html' | capitalize }}</a></li>{% endfor %}
+</ul><p><a href="index.html">← Back to About</a></p></main></body>
+</html>
