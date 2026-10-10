@@ -12,3 +12,27 @@ toggle.addEventListener('click', () => {
   try { localStorage.setItem('theme', next); } catch (e) {}
   updateLabel();
 });
+
+const menuToggle = document.querySelector('.mobile-menu-toggle');
+const menu = document.querySelector('#mobile-nav');
+if (menuToggle && menu) {
+  function closeMenu() {
+    menu.classList.remove('is-open');
+    menuToggle.setAttribute('aria-expanded', 'false');
+    menuToggle.setAttribute('aria-label', 'Open page menu');
+  }
+  menuToggle.addEventListener('click', () => {
+    const open = menu.classList.toggle('is-open');
+    menuToggle.setAttribute('aria-expanded', String(open));
+    menuToggle.setAttribute('aria-label', open ? 'Close page menu' : 'Open page menu');
+  });
+  menu.addEventListener('click', event => {
+    if (event.target.closest('a')) closeMenu();
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') closeMenu();
+  });
+  document.addEventListener('click', event => {
+    if (!menu.contains(event.target) && !menuToggle.contains(event.target)) closeMenu();
+  });
+}
