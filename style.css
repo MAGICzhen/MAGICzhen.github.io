@@ -63,3 +63,12 @@ a:focus-visible, button:focus-visible { outline:3px solid var(--link); outline-o
 
 .sitemap-page { max-width:760px; width:100%; margin:55px auto; padding:0 22px; flex:1; }
 .sitemap-page li { margin:9px 0; }
+
+/* Selected publications */
+.publication-list { list-style:none; padding:0; margin:22px 0 32px; }
+.publication-list li { padding:20px 0; border-bottom:1px solid var(--line); }
+.publication-list li:first-child { padding-top:4px; }
+.publication-title { font-weight:650; font-size:18px; line-height:1.45; }
+.content .publication-list p { margin:8px 0 0; }
+.content .publication-list .publication-venue { margin-top:3px; color:var(--muted); }
+.publication-note { margin-top:18px; }
