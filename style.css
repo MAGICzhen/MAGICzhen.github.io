@@ -76,12 +76,11 @@ a:focus-visible, button:focus-visible { outline:3px solid var(--link); outline-o
 @media (prefers-reduced-motion:reduce) { .page-layout { animation:none; } }
 
 /* A compact, keyboard-scrollable news box on the About page. */
-.news-section { margin-top:32px; }
-.news-section h2 { margin:0 0 12px; font-size:18px; }
+.news-section { margin-top:0; }
+.news-section h2 { margin:0 0 15px; padding-bottom:12px; border-bottom:1px solid var(--line); font-size:18px; }
 .news-panel { max-height:152px; overflow-y:auto; overscroll-behavior:contain; padding:0 16px; border:1px solid var(--line); border-radius:8px; scrollbar-width:thin; scrollbar-color:var(--muted) transparent; }
 .news-panel:focus-visible { outline:3px solid var(--link); outline-offset:3px; }
-.news-item { padding:12px 0; }
-.news-item + .news-item { border-top:1px solid var(--line); }
-.news-date { display:block; font-size:12px; font-weight:700; letter-spacing:.02em; color:var(--muted); }
-.content .news-item p { margin:3px 0 0; font-size:14px; line-height:1.45; }
+.news-list { margin:0; padding:5px 0 5px 20px; }
+.content .news-item { padding:8px 0; font-size:14px; line-height:1.5; text-align:left; }
+.news-date { color:var(--link); font-weight:600; }
 @media (max-width:720px) { .news-panel { max-height:160px; } }
