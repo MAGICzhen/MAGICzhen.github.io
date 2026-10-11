@@ -80,7 +80,7 @@ a:focus-visible, button:focus-visible { outline:3px solid var(--link); outline-o
 .news-section h2 { margin:0 0 15px; padding-bottom:12px; border-bottom:1px solid var(--line); font-size:18px; }
 .news-panel { max-height:152px; overflow-y:auto; overscroll-behavior:contain; padding:0 16px; border:1px solid var(--line); border-radius:8px; scrollbar-width:thin; scrollbar-color:var(--muted) transparent; }
 .news-panel:focus-visible { outline:3px solid var(--link); outline-offset:3px; }
-.news-list { margin:0; padding:5px 0 5px 20px; }
+.news-list { margin:0; padding:5px 0; list-style:none; }
 .content .news-item { padding:8px 0; font-size:14px; line-height:1.5; text-align:left; }
 .news-date { color:var(--link); font-weight:600; }
 @media (max-width:720px) { .news-panel { max-height:160px; } }
